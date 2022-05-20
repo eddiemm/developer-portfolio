@@ -3,7 +3,7 @@
 :root {
     --dark: #262322;
     --accent: #DD2D4A;
-    --light: #e5e5e5;
+    --light: #fafafa;
 }
 
 * {
@@ -93,13 +93,11 @@ a:visited {
 }
 
 .menu-btn {
-    font-size: 1.5rem;
     cursor: pointer;
 }
 
 .close-btn {
     cursor: pointer;
-    font-size: 1rem;
     position: absolute;
     top: 1.3rem;
     right: 1.5rem;
@@ -272,4 +270,25 @@ h3 {
     height: 100%;
     width: 0;
     background: #55dde0;
+}
+
+#aboutme {
+    background: var(--light);
+}
+
+.aboutme-container {
+    margin-top: .70rem;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.aboutme-content {
+    margin-top: 2.15rem;
+    width: 100%;
+}
+
+.aboutme-copy {
+    margin-top: .65rem;
 }
