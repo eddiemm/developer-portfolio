@@ -4,6 +4,7 @@
     --dark: #262322;
     --accent: #DD2D4A;
     --light: #fafafa;
+    --medium: #e5e5e5;
 }
 
 * {
@@ -20,6 +21,7 @@ html {
 }
 
 body {
+    min-width: 360px;
     width: 100%;
     height: 100vh;
     position: relative;
@@ -73,7 +75,8 @@ body {
 .menu.open .menu-item:hover, 
 .close-btn:hover,
 .menu.open .menu-item:active, 
-.close-btn:active  {
+.close-btn:active,
+.project-link:hover  {
     color: var(--accent);
     transition: color linear;
 }
@@ -196,7 +199,6 @@ section {
 h2 {
     font-size: 2.5rem;
     line-height: 3.3125rem;
-    font-weight: 600;
 }
 
 .section-title {
@@ -262,7 +264,7 @@ h3 {
 .skill-level-container {
     width: 100%;
     height: 1.6rem; 
-    background: #e5e5e5;
+    background: var(--medium);
     margin-top: .4rem ;
 } 
 
@@ -291,4 +293,63 @@ h3 {
 
 .aboutme-copy {
     margin-top: .65rem;
+}
+
+.projects-container {
+    width: 100%;
+    margin-top: 3.5rem;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 3rem;
+}
+
+.project {
+    font-size: inherit;
+    width: 17.5em;
+    box-shadow: 3px 3px 10px 1px rgba(0,0,0,50%);
+    border-radius: .5em;
+    overflow: hidden;
+    background-color: red;
+}
+
+.project-image {
+    width: 100%;
+    height: 9.8em;
+    background-image: url("/images/car.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.project-information {
+    padding: 1em;
+    background-color: white;
+}
+
+h4 {
+    font-size: 1.2em;
+    line-height: 1.2em;
+}
+
+.project-name {
+    font-weight: 400;
+}
+
+.project-description {
+    margin-top: 1.15em;
+}
+
+.link-group {
+    width: 100%;
+    height: 2.8em;
+    background: var(--dark);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.project-link {
+    line-height: 1em;
+    color: var(--light);
 }
