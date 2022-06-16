@@ -1,4 +1,4 @@
-Done: 
+Completed: 
 [x] add favicon
 [x] hover/active states on menu links
 [x] progress bar drops down when scroll position reaches top of overview section
@@ -7,6 +7,8 @@ Done:
 [x] add background copy
 [x] add currently copy
 [x] add goals copy
+[x] make hero name fluid as well as pink blocks
+[x] make intro sections 100vh each and adjust padding after
 
 Tasks:
 [] overview content takes left half, image takes up right half

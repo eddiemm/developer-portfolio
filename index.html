@@ -46,14 +46,16 @@
         <button class="btn-arrow-down"><i class="fa-solid fa-arrow-down"></i></button>
     </section>
     <section id="overview" class="overview">
-        <h2 class="section-title semibold">Hi, I'm Edgar</h2>
-        <h3>Who am I?</h3>
-        <p class="semilight intro">I am a front end developer with a passion for bringing web designs to life. I love debugging CSS properties, exploring sites for interaction opportunities that will engage users, and finding creative ways to display data to users. It's kinda my thing.
-        </p>
-        <div class="skill-container">
-            <h3>What can I do?</h3>
-            <p class="skill-note semilight">When it comes to web development, I am highly profficient with HTML, CSS, Javascript and Java. I am knowledgable of the React framework, but I have also worked with Vue and Ember in the past. I understand the basics of Node and Express as well. As for tools, I have experience with the following: VS Code, DevTools, Figma, Adobe XD, Babel, NPM, and much more.</p>
-            <p class="skill-note semilight">If a skill or technology is not mentioned above, don't worry. I am a very good at reading documentation, scouring the web for answers, and always excited to learn something new.</p>
+        <div class="intro">
+            <h2 class="section-title semibold">Hi, I'm Edgar</h2>
+            <h3>Who am I?</h3>
+            <p class="semilight">I am a front end developer with a passion for bringing web designs to life. I love debugging CSS properties, exploring sites for interaction opportunities that will engage users, and finding creative ways to display data to users. It's kinda my thing.
+            </p>
+            <div class="skill-container">
+                <h3>What can I do?</h3>
+                <p class="skill-note semilight">When it comes to web development, I am highly profficient with HTML, CSS, Javascript and Java. I am knowledgable of the React framework, but I have also worked with Vue and Ember in the past. I understand the basics of Node and Express as well. As for tools, I have experience with the following: VS Code, DevTools, Figma, Adobe XD, Babel, NPM, and much more.</p>
+                <p class="skill-note semilight">If a skill or technology is not mentioned above, don't worry. I am a very good at reading documentation, scouring the web for answers, and always excited to learn something new.</p>
+            </div>
         </div>
         <div class="philosophy">
             <h3>Developer Philosophy</h3>
@@ -78,55 +80,134 @@
 
     <section id="projects">
         <h2 class="section-title semibold">Projects</h2>
-        <div class="projects-container">
-            <div class="project">
-                <div class="project-image"></div>
-                <div class="project-information">
-                    <h4 class="project-name">Project Name</h4>
-                    <p class="project-description semilight">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi, quisquam sunt deserunt harum maxime eligendi recusandae commodi cupiditate iste dolore?</p>
+        <div class="project-flex-container">
+          <!-- PROJECT 1 -->
+          <div class="project-container">  
+            <div class="project-image">              
+              <img src="./images/project-image-jotter.png" alt="design">
+              <span class="project-image-label independent">independent</span>    
+            </div>  
+            <div class="project-description">
+              <div>
+                <h3 class="project-name">Jotter</h3>
+                <div class="leading-container">
+                  <span class="leading">A sticky note inspired web app</span>
                 </div>
-                <div class="link-group">
-                    <a href="#" class="project-link">Live Site</a>
-                    <a href="#" class="project-link">Code</a>
+              </div>
+              <div>
+                <h4>Role</h4>
+                <p class="project-content">Build the entire project using only HTML, CSS, and Vanilla JS.</p>
+              </div>
+              <div>
+                <h4>Obstacles</h4>
+                <p class="project-content">One of the challenges I faced while building this app was organizing CSS classes in a way thats human readable and easy to modify. I researched and found a methodology called BEM which is a naming convention applied to the block, element, and modifiers of an element's structure. This resulted in a much more readable, DRY, and organized stylesheet thats easy to edit and scale.</p>
+              </div>
+              <div class="technologies">
+                <h4>Technologies</h4>
+                <ul class="technologies-list project-content">
+                  <li class="technology">HTML</li>
+                  <li class="technology">CSS</li>
+                  <li class="technology">JavaScript</li>
+                  <li class="technology">Git</li>
+                  <li class="technology">Figma</li>
+                  <li class="technology">GCP</li>
+                  <li class="technology">Google Firestore</li>
+                  <li class="technology">Google Firebase Authentication</li>
+                </ul>
+              </div> 
+              <div class="project-links">
+                <h4>Code Sample:<a target="_blank" href="https://github.com/eddiemm/jotter">Github</a></h4>
+                <h4>Live:<a target="_blank" href="https://jotter-notes.herokuapp.com/">App</a></h4>
+              </div>        
+            </div>    
+          </div>
+          
+           <!-- PROJECT 2 -->
+          <div class="project-container">  
+            <div class="project-image">              
+              <img src="./images/project-image-pathfinder.png" alt="design">
+              <span class="project-image-label team">team</span>      
+            </div>  
+            <div class="project-description">
+              <div>
+                <h3 class="project-name">Pathfinder</h3>
+                <div class="leading-container">
+                  <span class="leading">A web app to help you plan your next national park trip</span>
                 </div>
-            </div>
+              </div>
+              <div>
+                <h4>Role</h4>
+                <p class="project-content">Implement the discover page where users can search for national parks based on park name or state.</p>
+              </div>
+              <div>
+                <h4>Obstacles</h4>
+                <p class="project-content">The major challenge I encountered while working on this project was figuring out how Vue and Bootstrap work. This was my first time working with both technologies, so researching and reading through documentation was essential to understand what was going on in the code base.</p>
+              </div>
+              <div class="technologies">
+                <h4>Technologies</h4>
+                <ul class="technologies-list project-content">
+                  <li class="technology">HTML</li>
+                  <li class="technology">CSS</li>
+                  <li class="technology">JavaScript</li>
+                  <li class="technology">Git</li>
+                  <li class="technology">Figma</li>
+                  <li class="technology">Vue</li>
+                  <li class="technology">Bootstrap</li>
+                  <li class="technology">Discord</li>
+                  <li class="technology">Github Projects</li>
+                  <li class="technology">Fetch API</li>
+                  <li class="technology">National Park Service API</li>
+                </ul>
+              </div> 
+              <div class="project-links">
+                <h4>Code Sample:<a target="_blank" href="https://github.com/eddiemm/jotter">Github</a></h4>
+                <h4>Live:<a target="_blank" href="https://jotter-notes.herokuapp.com/">App</a></h4>
+              </div>        
+            </div>    
+          </div>
 
-            <div class="project">
-                <div class="project-image"></div>
-                <div class="project-information">
-                    <h4 class="project-name">Project Name</h4>
-                    <p class="project-description semilight">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi, quisquam sunt deserunt harum maxime eligendi recusandae commodi cupiditate iste dolore?</p>
+           <!-- PROJECT 3 -->
+          <div class="project-container">  
+            <div class="project-image">              
+              <img src="./images/project-image-makefriends.png" alt="design">
+              <span class="project-image-label team">team</span>    
+            </div>  
+            <div class="project-description">
+              <div>
+                <h3 class="project-name">MakeFriends</h3>
+                <div class="leading-container">
+                  <span class="leading">An Android app to help facilitate digital connection between students during Covid-19 pandemic</span>
                 </div>
-                <div class="link-group">
-                    <a href="#" class="project-link">Live Site</a>
-                    <a href="#" class="project-link">Code</a>
-                </div>
-            </div>
-
-            <div class="project">
-                <div class="project-image"></div>
-                <div class="project-information">
-                    <h4 class="project-name">Project Name</h4>
-                    <p class="project-description semilight">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi, quisquam sunt deserunt harum maxime eligendi recusandae commodi cupiditate iste dolore?</p>
-                </div>
-                <div class="link-group">
-                    <a href="#" class="project-link">Live Site</a>
-                    <a href="#" class="project-link">Code</a>
-                </div>
-            </div>
-
-            <div class="project">
-                <div class="project-image"></div>
-                <div class="project-information">
-                    <h4 class="project-name">Project Name</h4>
-                    <p class="project-description semilight">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi, quisquam sunt deserunt harum maxime eligendi recusandae commodi cupiditate iste dolore?</p>
-                </div>
-                <div class="link-group">
-                    <a href="#" class="project-link">Live Site</a>
-                    <a href="#" class="project-link">Code</a>
-                </div>
-            </div>
+              </div>
+              <div>
+                <h4>Role</h4>
+                <p class="project-content">Lead the the entire front end of the application and designate tasks for other members to contribute.</p>
+              </div>
+              <div>
+                <h4>Obstacles</h4>
+                <p class="project-content">Although not a web application, this was still a very challenging front end experience for me because I was in charge of designing the entire app front end including app design, UI/UX, data fetching, and implementation in Java. I was able to complete my task by delegating subtasks to other team members, communicating with my team daily, organizing sprints on Jira, and managing my time well. </p>
+              </div>
+              <div class="technologies">
+                <h4>Technologies</h4>
+                <ul class="technologies-list project-content">
+                  <li class="technology">Android Studio</li>
+                  <li class="technology">Android</li>
+                  <li class="technology">Java</li>
+                  <li class="technology">Google Firebase</li>
+                  <li class="technology">Git</li>
+                  <li class="technology">Jira</li>
+                  <li class="technology">Adobe XD</li>
+                </ul>
+              </div> 
+              <div class="project-links">
+                <h4>Code Sample:<a target="_blank" href="https://github.com/eddiemm/jotter">Github</a></h4>
+                <h4>Live:<a target="_blank" href="https://jotter-notes.herokuapp.com/">App</a></h4>
+              </div>        
+            </div>    
+          </div>
+              
         </div>
+        
     </section>
 
     <section id="aboutme" class="about-me">
@@ -179,11 +260,11 @@
 
         <div id="contact" class="contact-info">
             <h5 class="footer-heading semibold">Contact Me</h5>
-            <p class="small">(323)500-3858<br>San Fernando, CA<br>email@gmail.com</p>
+            <p class="small">(323)500-3858<br>San Fernando, CA<br>mancia.eddie.m@gmail.com</p>
             <ul class="socials">
                 <li class="social"><a target="_blank" href="https://github.com/eddiemm"><i class="fa-brands fa-github"></i></a></li>
                 <li class="social"><a target="_blank" href="https://www.linkedin.com/in/edgarmancia/"><i class="fa-brands fa-linkedin-in"></i></a></li>
-                <li class="social"><a target="_blank" href="mailto:mancia.eddie.m@gmail.com"><i class="fa-solid fa-at"></i></a></li>
+                <li class="social"><a target="_blank" href="mailto:mancia.eddie.m@gmail.com?subject=Let's work together! Send us your resume!&body=After viewing your portfolio, we would like to request a resume for a position we have available."><i class="fa-solid fa-at"></i></a></li>
             </ul>
         </div>
     </footer>
