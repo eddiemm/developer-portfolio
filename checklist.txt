@@ -9,22 +9,17 @@ Completed:
 [x] add goals copy
 [x] make hero name fluid as well as pink blocks
 [x] make intro sections 100vh each and adjust padding after
+[x] fix project image sizes
+[x] project image click leads to project site/ github
 
 Tasks:
 [] overview content takes left half, image takes up right half
 [] overview image fades in from the right
-[] projects are in a grid
-[] on project click, project moves to top left corner, description takes up the right half of the grid
 [] projects fade in staggered
 [] about me copy takes up the right half, image takes up the left half
 [] about me image fades in from the left
+[] make contact section glow across when scroll hits bottom
 
 Time consuming tasks: 
 [] main hero moves up to create parallax effect
-
-[] contact link shoud be primary CTA styled
-[] CTA opens modal for email: name, email, email body, would you like a resume checkbox, submit CTA
-[] add same CTA to the footer
-[] send message via email and resume on submit if box is checked
-[] contact button hover/active states
 
