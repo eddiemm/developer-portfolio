@@ -23,3 +23,6 @@ Tasks:
 Time consuming tasks: 
 [] main hero moves up to create parallax effect
 
+Bugs:
+[] achor links in menu scroll to wrong position
+[] hero image bad on ios
