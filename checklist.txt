@@ -26,3 +26,4 @@ Time consuming tasks:
 Bugs:
 [] achor links in menu scroll to wrong position
 [] hero image bad on ios
+[] light pink square missing in hero ios
