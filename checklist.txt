@@ -11,6 +11,7 @@ Completed:
 [x] make intro sections 100vh each and adjust padding after
 [x] fix project image sizes
 [x] project image click leads to project site/ github
+[x] hero image bad on ios
 
 Tasks:
 [] overview content takes left half, image takes up right half
@@ -25,5 +26,4 @@ Time consuming tasks:
 
 Bugs:
 [] achor links in menu scroll to wrong position
-[] hero image bad on ios
 [] light pink square missing in hero ios
