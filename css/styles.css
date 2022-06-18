@@ -622,31 +622,9 @@ h5 {
 
     .skill {
         align-self: center;
-    }    
-}
-
-/* For landscape layouts only */
-@media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:landscape) {
-    .close-btn, .menu-btn {
-        display: none !important;
-    }
-
-    .menu {
-        height: 100%;
-        width: 70%;
-        position: relative;
-        top: 0;
-        flex-direction: row;
-        justify-content: space-between;
-        background: inherit;
-        color: black;
-        margin-right: inherit;
     }
     
-    .menu-item {
-        color: inherit;
-    }
-  }
+}
 
 @media only screen and (min-width: 1024px) {
     .navbar, section, footer {
