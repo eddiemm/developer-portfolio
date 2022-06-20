@@ -7,7 +7,11 @@
         const hamburger = document.getElementById('hamburger');
         const htmlRoot = document.documentElement;
         const heroSection = document.getElementById('home');
+        // const menuItems = document.getElementsByClassName('menu-item');
         const overviewSection = document.getElementById('overview');
+        // const projectsSection = document.getElementById('projects');
+        // const aboutMeSection = document.getElementById('aboutme');
+        // const contactSection = document.getElementById('contact');
         const progressBar = document.getElementById('progressBar');
         const downBtn = document.getElementsByClassName('btn-arrow-down')[0];
 
@@ -62,6 +66,9 @@
         for(let menuLink of menuLinks){
             menuLink.onClick = closeMenu;
         }
+
+        /* add listeners to each menu-item */
+        /* add listeners to each menu-item */
 
         hamburger.addEventListener('click', openMenu, false);
         console.log(hamburger);
