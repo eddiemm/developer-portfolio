@@ -5,7 +5,7 @@
     --accent: #dd2d4a;
     --accent-dark: hsl(350, 72%, 32%);
     --accent-opaque: rgba(221, 45, 74, .4);
-    --light: #fafafa;
+    --light: #f4f4f4;
     --medium: hsl(0, 0%, 90%);
 }
 
@@ -22,7 +22,7 @@ html {
     font-weight: 400;
     color: var(--dark);
     font-size: 16px;
-    scroll-behavior: smooth;
+    /* scroll-behavior: smooth; */
 }
 
 body {
@@ -314,7 +314,7 @@ h3 {
 
 .philosophy-highlight {    
     margin: 3rem 0;
-    border-radius: .8rem;
+    /* border-radius: .8rem; */
     border: 2px solid var(--medium);
     padding: 2rem 1rem;
     max-height: 28rem;
@@ -538,7 +538,7 @@ footer {
 
 
 .brand-name {
-    font-size: .8rem;
+    font-size: 1rem;
     line-height: 1.6rem;
     position: absolute;
     top: -.2rem;
@@ -583,8 +583,12 @@ h5 {
 .contact-info {
     min-width: 300px;
     width: 50%;
-    padding: 1rem 1rem;
+    padding: .4rem 1rem 1rem;
     background-color: var(--accent);
+}
+
+.footer-heading {
+    font-size: 1.2rem;
 }
 
 .contact-info p {

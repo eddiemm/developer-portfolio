@@ -73,7 +73,7 @@
         hamburger.addEventListener('click', openMenu, false);
         console.log(hamburger);
 
-        downBtn.addEventListener('click', scrollToOverview, false);
+        downBtn.addEventListener('mousedown', scrollToOverview, false);
 
         htmlRoot.addEventListener('click', (evt) => {
             if(evt.target !== menu && !(evt.target.classList.contains('menu-btn'))){
